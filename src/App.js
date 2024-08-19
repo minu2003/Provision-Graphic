@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import ChooseUs from './ChooseUs';
+import Home from './Home';
+import Socialmedia from './Socialmedia';
 
 function App() {
+/*  const theme = createTheme({
+    typography: {
+      fontFamily: 
+        [
+          'Roboto',
+          'sans-serif'
+        ]
+    }
+  })*/
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home/>
+      <Socialmedia/>
+      <ChooseUs/>
     </div>
   );
 }
